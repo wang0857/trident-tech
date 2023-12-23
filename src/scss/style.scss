@@ -1,0 +1,29 @@
+/* Overall Setting */
+@import './_variables.scss';
+@import './_mixin.scss';
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;700&display=swap');
+
+body {
+    background-color: $background-color;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+
+    & > * {
+        font-family: 'Noto Sans HK', sans-serif;
+        font-size: 24px;
+        color: $black;
+        box-sizing: border-box;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+}
