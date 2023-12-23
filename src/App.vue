@@ -151,6 +151,7 @@
     &-container {
       position: relative;
       display: block;
+      background-color: $white;
       .logo {
         position: absolute;
         top: 47px;
